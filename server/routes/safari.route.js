@@ -2,6 +2,9 @@ const SafariController = require("../controllers/safari.controller");
 
 //Routes that go to controller 
 module.exports = app => {
+    //Test
+    app.get('/api/hello', SafariController.index)
+
     //Get all- Get
     app.get("/api/safari", SafariController.getAllSafari);
 

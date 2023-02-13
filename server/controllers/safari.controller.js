@@ -3,6 +3,11 @@ const { find } = require("../models/safari.model");
 const Safari = require("../models/safari.model");
 //Send from Express with function
 
+//Server Test Route
+module.exports.index = (req, res) => {
+    res.json({ message: "Hello there!" })
+}
+
 //GET/FIND ALL 
 module.exports.getAllSafari = (req, res) => {
 //Promise function/Route capability 
