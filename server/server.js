@@ -21,3 +21,4 @@ const SafariRoutes = require("./routes/safari.route");
 SafariRoutes(app);
 
 app.listen(port, () => console.log(`Server is running on port ${port}`) );
+module.exports=app;
